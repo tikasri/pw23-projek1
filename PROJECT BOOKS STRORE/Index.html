@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Books website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons-->
+    <link rel="stylesheet" 
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/download (4).jpg" alt="">
+        </a>
+        <!-- Menu Icon-->
+        <i class='bx bx-menu'id="menu-icon"></i>
+        <!-- Links -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Best seller">Best seller</a></li>
+            <li><a href="#products">Products</a></li>
+        </ul>
+        <!-- Icon -->
+        <div class="header-icon">
+            <i class='bx bx-cart-alt'></i>
+            <i class='bx bx-search'id="search-icon"></i>
+        </div>
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome to Online <br>Books Store</h1>
+            <p>Books are the best knowledge</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/book11111.jpg" alt="">
+        </div>
+    </section>
+    <!-- About -->
+    <section class="Best seller" id="Best seller">
+        <div class="about-img">
+            <img src="" alt="">
+            <video controls poster="img/book7.jpg">
+                <source src="">
+           </video>    
+        </div>
+        <div class="about-text">
+            <h2>Best seller</h2>
+            <p>Product di atas adalah salah satu contoh product terlaris di toko kami.</p>
+            <p>Jika kamu menyukai sesuatu yang baru cobalah dengan yang terbaru dari toko kami.</p>
+            <p>There are several interesting things from this book. If you want to know, start reading it.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our populer products</h2>
+        </div>
+        <!-- Container -->
+        <div class="products-container">
+            <div class="box">
+                <img src="img/book1.jpg" alt="">
+                <h3>My Neighbor Totoro</h3>
+                <div class="content">
+                    <span>$80</span>
+                    <a href="#">Add to chart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/book11.jpg" alt="">
+                <h3>The secret word of arriety</h3>
+                <div class="content">
+                    <span>$80</span>
+                    <a href="#">Add to chart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/book111.jpg" alt="">
+                <h3>Princess Mononoke</h3>
+                <div class="content">
+                    <span>$80</span>
+                    <a href="#">Add to chart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/book1111.jpg" alt="">
+                <h3>Kikl's</h3>
+                <div class="content">
+                    <span>$80</span>
+                    <a href="#">Add to chart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/book9.jpg" alt="">
+                <h3>Seeing what others don't</h3>
+                <div class="content">
+                    <span>$80</span>
+                    <a href="#">Add to chart</a>
+                </div>
+            </div>
+            <div class="box">
+               <img src="img/book8.jpg" alt="">
+               <h3>Head first how the mind heals the body</h3>
+               <div class="content">
+                   <span>$80</span>
+                   <a href="#">Add to chart</a>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <h2>Get started</h2>
+        <div>
+         <form action="/action_page.php">
+                 <div class="form-group">
+                 <label for="email">Email address:</label>
+                 <input type="email" class="form-control" id="email">
+                 </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+            <br><br>
+                 <label>Pesan :</label>
+                 <textarea id= "pesan" name="pesan" cols="30" rows="10"></textarea> 
+            <br><br>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="footage">
+        <h2>footage</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yrZpO2jV00I?si=wCNb3OujNjja8J71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+            <section class="map">
+        <h2>Location</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965099046!2d107.56075433282858!3d-6.903271950449103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1701535110405!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </section>
+    <!-- Customers -->
+    <section class="customers" id="customers">
+        <div class="heading">
+            <h2>What our clients say</h2>
+        </div>
+        <!-- Container -->
+        <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>I want to buy some books for the new class, and now i found it.</p>
+                <h2>Book lovers</h2>
+                <img src="img/book6.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>I hope I can find the amazing book, and now I found it.</p>
+                <h2>Secret books</h2>
+                <img src="img/book7.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>I'm looking for the best book, and this bookstore has the best.</p>
+                <h2>lovers</h2>
+                <img src="img/book8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Online Shop</h2>
+            <p>just look for it now.</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Product</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Our Branches</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bxs-map'></i>Jln. Buah Batu, Bandung</span>
+                <span><i class='bx bxs-phone'></i>+62 999 744 844</span>
+                <span><i class='bx bxs-envelope'></i>Books@shope.com</span>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#168; CarpoolVenom All Right Reserved</p>
+    </div>
+
+
+
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
